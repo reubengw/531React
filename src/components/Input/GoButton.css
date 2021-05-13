@@ -1,0 +1,11 @@
+.go_button {
+  background-color: #40005d;
+  height: 70px;
+  width: 100px;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  margin: 25px auto 25px auto;
+  cursor: pointer;
+  border: 2px solid white;
+}

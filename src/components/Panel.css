@@ -1,0 +1,11 @@
+.panel {
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  min-height: 95vh;
+  width: 95%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}

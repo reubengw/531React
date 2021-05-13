@@ -1,0 +1,15 @@
+.cycle_title {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 5px;
+  padding: 9px;
+}
+
+.exercise_cycle {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise {
+  height: auto;
+}
