@@ -12,10 +12,10 @@ const Panel = (props) => {
     Deadlift: 0,
   });
   const [currentOneRepMax, setCurrentOneRepMax] = useState({
-    Bench: 107.5,
-    OHP: 67.5,
-    Squat: 140,
-    Deadlift: 165,
+    Bench: 0,
+    OHP: 0,
+    Squat: 0,
+    Deadlift: 0,
   });
 
   return (
