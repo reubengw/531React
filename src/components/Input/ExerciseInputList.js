@@ -1,5 +1,4 @@
 import ExerciseInput from "./ExerciseInput";
-import ExerciseInputs from "./ExerciseInputs";
 import "./ExerciseInputList.css";
 
 const ExerciseInputList = ({ setOneRepMax, oneRepMax }) => {
