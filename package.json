@@ -16,7 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "aws s3 sync build/ s3://rectifier-test --profile reuben"
+    "deploy": "aws s3 sync build/ s3://rectifier-test --profile reuben",
+    "pbd": "git push origin master && yarn build && yarn deploy",
+    "bd": "yarn build && yarn deploy"
   },
   "eslintConfig": {
     "extends": [
