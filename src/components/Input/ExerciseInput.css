@@ -23,3 +23,13 @@
   height: 20px;
   text-align: left;
 }
+
+@media only screen {
+  .exercise_input_title {
+    font-size: 17px;
+  }
+
+  .exercise_input_field {
+    width: 30px;
+  }
+}
