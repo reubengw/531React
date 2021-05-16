@@ -3,7 +3,7 @@ import "./ExerciseCycleList.css";
 
 const ExerciseCycleList = ({ currentOneRepMax }) => {
   return (
-    <div className="exercise_cycle">
+    <div className="exercise_cycles">
       <ExerciseCycle
         week={1}
         currentOneRepMax={currentOneRepMax}
