@@ -7,7 +7,13 @@ const ExerciseInput = ({ title, setOneRepMax, oneRepMax }) => {
   return (
     <div className="exercise_input_container">
       <label className="exercise_input_title">{title}</label>
-      <input onChange={changeHandler} className="exercise_input_field"></input>
+      <input
+        inputmode="decimal"
+        type="number"
+        pattern="[0-9]"
+        onChange={changeHandler}
+        className="exercise_input_field"
+      ></input>
     </div>
   );
 };

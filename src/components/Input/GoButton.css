@@ -4,8 +4,17 @@
   width: 100px;
   color: white;
   font-size: 50px;
+  line-height: 50px;
   border-radius: 8px;
   margin: 25px auto 25px auto;
   cursor: pointer;
   border: 2px solid white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .go_button {
+    text-align: center !important;
+    justify-content: center;
+    font-size: 25px;
+  }
 }

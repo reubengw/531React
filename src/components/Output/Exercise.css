@@ -14,3 +14,9 @@
   width: 200px;
   text-align: center;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .exercise_label {
+    margin-left: 10px;
+  }
+}

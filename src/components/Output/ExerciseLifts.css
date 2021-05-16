@@ -11,3 +11,10 @@
   background-color: #2a2a2a;
   text-align: center;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .exercise_lifts {
+    font-size: 12px;
+    margin: 0px 10px 0px 10px;
+  }
+}
